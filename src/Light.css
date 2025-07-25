@@ -1,0 +1,125 @@
+.redlight{
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: 100px;
+    width: 0px;
+    margin: 20px;
+    scale: 2;
+    margin: 50px;
+    outline-offset: 2px;
+    outline-width: 2px;
+    outline-color: red;
+    outline-style: solid;
+
+}
+.redlighton{
+    background-color: red;
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: 100px;
+    width: 0px;
+    margin: 20px;
+    scale: 2;
+    margin: 50px;
+    outline-offset: 2px;
+    outline-width: 2px;
+    outline-color: red;
+    outline-style: solid;
+}
+
+.greenlight{
+    border: 2px solid rgb(6, 248, 58);
+    padding: 20px;
+    border-radius: 50px;
+    width: 0px;
+    margin: 20px;
+    scale: 2;
+    margin: 50px;
+    outline-offset: 2px;
+    outline-width: 2px;
+    outline-color: rgb(6, 248, 58);
+    outline-style: solid;
+}
+.greenlighton{
+    background-color: rgb(6, 248, 58);
+    border: 2px solid rgb(6, 248, 58);
+    padding: 20px;
+    border-radius: 50px;
+    width: 0px;
+    margin: 20px;
+    scale: 2;
+    margin: 50px;
+    outline-offset: 2px;
+    outline-width: 2px;
+    outline-color: rgb(6, 248, 58);
+    outline-style: solid;
+}
+
+.mlight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    border: none;
+    height: 70px;
+    width: 400px;
+    background-color: rgb(20, 197, 20);
+    color: white;
+    border-radius: 50px;
+    font-size: xx-large;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
+.btnstop{
+    border: none;
+    height: 70px;
+    width: 400px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    font-size: xx-large;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
+.btnnew{
+    border: none;
+    height: 70px;
+    width: 400px;
+    background-color: rgb(12, 71, 218);
+    color: white;
+    border-radius: 50px;
+    font-size: xx-large;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
+
+.btn:active{
+    transition: all 200ms ease 0s;
+    scale: 0.95;
+    box-shadow: none;
+}
+.btnstop:active{
+    transition: all 200ms ease 0s;
+    scale: 0.95;
+    box-shadow: none;
+}
+.btnnew:active{
+    transition: all 200ms ease 0s;
+    scale: 0.95;
+    box-shadow: none;
+}
+
+.btndiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 100px;
+    
+}
